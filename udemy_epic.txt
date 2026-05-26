@@ -1,0 +1,27 @@
+Epic: User Registration for Udemy App
+
+Description:
+As a new user, I want to register for the Udemy app using my email and password so that I can access courses and manage my learning profile.
+
+Acceptance Criteria:
+
+Users can access a registration page from the app’s main screen.
+Registration form includes fields for email, password, and password confirmation.
+Email must be unique and validated for correct format.
+Password must meet security requirements (e.g., minimum length, complexity).
+Users receive a confirmation email after successful registration.
+Users cannot register with an email that is already in use.
+Error messages are shown for invalid or missing fields.
+Registration is logged for analytics and auditing.
+
+-------------------
+
+Epic
+BA - User Stories (Agent, skills, instructions, prompts, hooks, MCP/optional)
+O/p - registeration_user_stories.md file
+
+Lead - Refinement / Planning (requirements clarification)
+Developer - Coding (Planning, Coding, Refactor, unit-testing, PR)
+
+
+

@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "sh .github/hooks/scripts/check-jira-pattern.sh",
+        "timeout": 10
+      }
+    ]
+  }
+}
