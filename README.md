@@ -49,8 +49,10 @@ The server starts on port `3000` by default.
 
 ### Swagger Docs
 
-- `GET /api-docs` - Swagger UI
-- `GET /api-docs.json` - OpenAPI JSON
+- `GET /api-docs` - Swagger UI (interactive API documentation)
+- `GET /api-docs.json` - OpenAPI JSON spec
+
+The OpenAPI specification is stored in `docs/openapi.json` and drives the Swagger UI.
 
 Full endpoint documentation: [docs/api-reference.md](docs/api-reference.md)
 OpenAPI spec file: [docs/openapi.json](docs/openapi.json)
